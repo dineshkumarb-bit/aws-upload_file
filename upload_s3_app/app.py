@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.secret_key = 'secret123'  # Needed for flash messages
 
 # Replace with your bucket name
-S3_BUCKET = 'your-bucket-name'
+S3_BUCKET = 'chandana-bucket-demo'
 
 # Create S3 client
 s3 = boto3.client('s3')
